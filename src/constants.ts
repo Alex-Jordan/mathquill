@@ -136,8 +136,9 @@ export const BuiltInOpNames: { [key: string]: 1 } = {};
 
 // Standard operators
 for (const op of [
-	'arg', 'deg', 'det', 'dim', 'exp', 'gcd', 'hom', 'ker', 'lg', 'lim', 'ln',
-	'log', 'max', 'min', 'sup', 'limsup', 'liminf', 'injlim', 'projlim', 'Pr'
+//	'arg', 'deg', 'det', 'dim', 'exp', 'gcd', 'hom', 'ker', 'lg', 'lim', 'ln',
+//	'log', 'max', 'min', 'sup', 'limsup', 'liminf', 'injlim', 'projlim', 'Pr'
+	'exp', 'lg', 'ln', 'log'
 ]) { BuiltInOpNames[op] = 1; }
 
 // Trig operators
